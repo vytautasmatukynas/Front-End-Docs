@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+}
+
+/* when you hover, color changes */
+h1:hover {
+    color: aqua;
+}
+
+p {
+    color: aqua;
+}
+
+/* add style just to items with class selector with name "aaa*/
+.aaa {
+    color: black;
+}
+
+/* add style just to items with id selector with name "aaaa*/
+#aaaa {
+    color: black;
+}
+
+p[draggable]{
+    color: green; 
+}
+
+p[draggable="false"]{
+    color: yellow; 
+}
+
+/* select all elements of stylesheet
+* {
+    color: rgb(80, 24, 24);
+} */

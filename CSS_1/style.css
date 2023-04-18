@@ -1,0 +1,28 @@
+body {
+    background-color: blue;
+}
+
+hr {
+    border-color: aquamarine;
+    border-top-style: dashed;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+li {
+    color: aliceblue;
+}
+
+.headers {
+    color: yellow;
+}
