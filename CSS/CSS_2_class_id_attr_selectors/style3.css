@@ -1,0 +1,62 @@
+/* Styling the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Styling headings */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  /* Styling links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling paragraphs */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Styling the border and dimensions of images */
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #000;
+  }
+  
+  /* Styling list items */
+  ul {
+    list-style-type: square;
+  }
+  
+  /* Styling a button */
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
