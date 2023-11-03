@@ -1,0 +1,14 @@
+/* Custom typography for a specific class */
+.font-example {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Responsive image styles */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
