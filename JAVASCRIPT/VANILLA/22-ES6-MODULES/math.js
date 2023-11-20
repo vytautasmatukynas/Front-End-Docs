@@ -4,6 +4,7 @@
 // files, it's recommended to launch a local server. The server will help you 
 // avoid CORS (Cross-Origin Resource Sharing) issues and enable the correct 
 // loading of ES6 modules.
+// Or VSCode plugin http 'live server'.
 
 export const PI = 3.14;
 
