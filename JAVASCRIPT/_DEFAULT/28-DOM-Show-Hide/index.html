@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show/Hide Example</title>
+  <style>
+    /* Initially hide the element */
+    #myElement {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<button id="toggleButton">Toggle Element</button>
+<div id="myElement">This is the element to show/hide.</div>
+
+<script>
+// Get references to the button and the element to show/hide
+var toggleButton = document.getElementById('toggleButton');
+var myElement = document.getElementById('myElement');
+
+// Add a click event listener to the button
+toggleButton.addEventListener('click', function() {
+  // Toggle the visibility of the element
+  if (myElement.style.display === 'none') {
+    myElement.style.display = 'block';
+  } else {
+    myElement.style.display = 'none';
+  }
+});
+</script>
+
+</body>
+</html>

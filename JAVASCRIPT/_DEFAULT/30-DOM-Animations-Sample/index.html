@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation Example</title>
+
+  <style>
+    /* CSS styles for the element to be animated */
+    #animatedElement {
+      width: 100px;
+      height: 100px;
+      background-color: #3498db;
+      position: relative;
+      /* Set initial rotation to 0 degrees */
+      transform: rotate(0deg);
+      /* Apply animation with a name, duration, and easing function */
+      animation: rotateAnimation 2s linear infinite;
+    }
+
+    /* Define the animation keyframes */
+    @keyframes rotateAnimation {
+      /* From 0 degrees to 360 degrees */
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Element to be animated -->
+  <div id="animatedElement"></div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show/Hide & Key Press Example</title>
+
+  <!-- CSS styles to initially hide the element -->
+  <style>
+    #myElement {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Button to toggle the visibility of the element -->
+  <button id="toggleButton">Toggle Element</button>
+
+  <!-- Element to show/hide -->
+  <div id="myElement">This is the element to show/hide.</div>
+
+  <!-- JavaScript code to handle button click and key press events -->
+  <script>
+    // Get references to the button and the element to show/hide
+    var toggleButton = document.getElementById('toggleButton');
+    var myElement = document.getElementById('myElement');
+
+    // Add a click event listener to the button
+    toggleButton.addEventListener('click', function() {
+      // Toggle the visibility of the element
+      if (myElement.style.display === 'none') {
+        myElement.style.display = 'block';
+      } else {
+        myElement.style.display = 'none';
+      }
+    });
+
+    // Add a keydown event listener to the document
+    document.addEventListener('keydown', function(event) {
+      // Check if the Enter key was pressed
+      if (event.key === 'Enter') {
+        alert('Enter key pressed!');
+      }
+    });
+  </script>
+
+</body>
+</html>
