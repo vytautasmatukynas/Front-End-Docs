@@ -7,10 +7,10 @@
 // Or VSCode plugin http 'live server'.
 
 // Import the math module
-import { PI, count } from "./math.js";
+import PI, {radius, count} from "./math.js";
 // Import everything
 // import * from "./app.js";
 
 console.log(PI);
 
-console.log(count(5));
+console.log(count(radius));

@@ -6,6 +6,12 @@
 // loading of ES6 modules.
 // Or VSCode plugin http 'live server'.
 
-export const PI = 3.14;
+const PI = 3.14;
 
-export const count =  radius => 2 * PI * radius;
+const radius = 3.14;
+
+const count =  radius => 2 * PI * radius;
+
+export default PI;
+
+export {radius, count};
