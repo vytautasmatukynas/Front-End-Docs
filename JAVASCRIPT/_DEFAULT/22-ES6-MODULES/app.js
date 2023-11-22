@@ -9,8 +9,15 @@
 // Import the math module
 import PI, {radius, count} from "./math.js";
 // Import everything
-// import * from "./app.js";
+import * as math from "./math2.js";
+
 
 console.log(PI);
 
 console.log(count(radius));
+
+
+// When importing everything it eturns JS OBJECT
+console.log(math.PI);
+
+console.log(math.count(math.radius));
